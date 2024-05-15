@@ -1,0 +1,64 @@
+.profession,
+.name{
+position: relative;
+top: 0px; left: 140px;
+color: rgb(12, 200, 217);
+font-family: 'Roboto', sans-serif;
+}
+.profession{
+    color: rgb(8, 87, 93)
+}
+
+.whatsapp,
+.github,
+.linkendin{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border: 2px solid rgb(255, 255, 255);
+    margin: 10px;
+    position: relative;
+    top: 100px; left: 275px;
+  }
+
+.profilePicture{
+    width: 250px;
+    height: 250px;
+    border-radius: 500px;
+    border: 10px solid rgb(255, 174, 0);
+    position: relative;
+    top: 0px; left: 30px;
+}
+  .container{
+    position: relative;
+    top:0px; left: -150px;
+  }
+  .I{
+    color:rgb(255, 174, 0);
+    font-family: 'Roboto', sans-serif;
+
+  }
+  .myDescription{
+    color: white;
+    max-width: 500px;
+    font-family: 'Serif ', sans-serif;
+
+}
+
+.vignettes{
+    color: orangered;
+}
+.containerI{
+    position: relative;
+    top: 100px
+}
+
+.varCardTechnologies{
+  color: white;
+  position: relative;
+  top: 100px
+}
+
+.title{
+  color: orange
+}

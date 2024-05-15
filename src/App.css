@@ -1,38 +1,11 @@
 .App {
   text-align: center;
+  background-color: black;
+  padding: 10px; /* Ajusta el espacio alrededor del contenido */
+min-height: 100hv;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.extra{
+  height: 2000px; /* Altura adicional del contenido */
+  background-color: transparent; /* Puedes eliminar esto si no quieres un fondo en el contenido adicional */
 }

@@ -5,20 +5,54 @@ top: 100px
 }
 
 .title{
-    color: orange
+    font-size: 1.5rem; /* Tamaño de fuente del título */
+    color: rgb(255, 255, 255); /* Color del título */
+    margin-bottom: 1rem; /* Espacio debajo del título */
 }
-.CardContainer{
-    border: 1px solid rgb(255, 255, 255);  
-      width: 200px;
-    height: 300px;
-    position: relative;
-    top:200px
+.CardContainer {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  border: rgb(0, 0, 0) solid 1px;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 5);
+
 }
 
+.containerTechs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); /* Ajustar el número de columnas automáticamente */
+  gap: 0.5rem; /* Espacio entre elementos */
+  overflow-y: scroll; /* Permitir desplazamiento vertical */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
 
-.img{
-    position: relative;
-    top: -22px;
-    width: 200px;
-    height: 150px;
+.containerTechs::-webkit-scrollbar {
+  display: none; /* Ocultar barra de desplazamiento en Chrome, Safari y Opera */
+}
+
+.techItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img { 
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0.5rem;
+  object-fit: contain;
+}
+
+.nameTechnologies {
+  color: white;
+  font-size: 1rem; /* Ajustar tamaño de fuente */
+  font-family: 'Roboto', sans-serif;
+  text-align: center; /* Centrar el texto */
 }

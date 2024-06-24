@@ -32,6 +32,11 @@ font-family: 'Roboto', sans-serif;
   .container{
     position: relative;
     top:0px; left: -150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
+    gap: 10px; /* Espacio entre los divs, opcional */
+    justify-content: center;
+    align-items: center;
   }
   .I{
     color:rgb(255, 174, 0);
@@ -50,7 +55,8 @@ font-family: 'Roboto', sans-serif;
 }
 .containerI{
     position: relative;
-    top: 100px
+    top: 60px;
+    align-items: center;
 }
 
 .varCardTechnologies{
@@ -61,4 +67,10 @@ font-family: 'Roboto', sans-serif;
 
 .title{
   color: orange
+}
+
+.rectangulo{
+  color: red;
+  position: relative;
+
 }

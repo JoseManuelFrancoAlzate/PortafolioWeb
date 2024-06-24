@@ -1,7 +1,34 @@
 .title{
-    color: white;
+    color: orange;
+    position: relative;
+    top:-50px
 }
 .containerTechnologies{
     position: relative;
     top:100px
 }
+
+.container{
+    position: relative;
+    top:100px
+}
+
+/* Technologies.module.css */
+
+.containerCardsTechnologies {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual ancho */
+    grid-gap: 1rem; /* Espacio entre las tarjetas */
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1rem; /* Ajuste de padding */
+    margin: 1rem auto; /* Centra el contenedor horizontalmente */
+    border-radius: 20px; /* Ajuste del border-radius */
+    border: 1px solid yellowgreen;
+    width: 700px;
+    background-color: rgb(17, 16, 16);
+    position: relative;
+    top: 100px;
+    
+  }
+  

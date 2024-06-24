@@ -6,6 +6,6 @@ min-height: 100hv;
 }
 
 .extra{
-  height: 2000px; /* Altura adicional del contenido */
+  height: 200px; /* Altura adicional del contenido */
   background-color: transparent; /* Puedes eliminar esto si no quieres un fondo en el contenido adicional */
 }

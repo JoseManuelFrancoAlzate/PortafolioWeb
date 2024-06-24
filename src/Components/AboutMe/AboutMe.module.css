@@ -1,0 +1,49 @@
+.title{
+    color:rgb(255, 174, 0);
+    font-family: 'Roboto', sans-serif;
+}
+
+.vignettes{
+    color:orangered
+
+}
+
+.container{
+    position: relative;
+    top:130px
+}
+
+.about{
+    color:antiquewhite;
+    max-width: 500px;
+    font-size: 1rem;
+    line-height: 1.6;
+ 
+}
+
+/* DownloadButton.module.css */
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #3498db; /* Azul */
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: 2px solid #2980b9; /* Azul más oscuro */
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    margin-top: 0px; 
+}
+
+.button:hover {
+    background-color: #395262; /* Azul más oscuro al hacer hover */
+    border-color: #294354; /* Mismo azul para el borde al hacer hover */
+}
+
+.button:active {
+    background-color: #1f618d; /* Azul más oscuro al hacer click */
+    border-color: #1f618d; /* Mismo azul para el borde al hacer click */
+}

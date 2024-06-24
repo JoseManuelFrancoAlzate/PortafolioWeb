@@ -1,18 +1,19 @@
-import styles from './ProjectsCards.module.css'
+import styles from './ProjectsCards.module.css';
 
-const ProjectsCards = (props)=>{
-    return(
-        <div>
-        <div className={styles.CardContainer}>
-        <h1 className={styles.cardName}>{props.name}</h1>
-        <img alt={props.name} className={styles.img} src={props.image}/>
-        <div className={styles.containerText}>
-        <p className={styles.text}>jj</p>
-        </div>
-        </div>
+const ProjectsCards = (project) => {
+    return (
+        <div key={project.name} className={styles.card}>
+            <img src={project.imageUrl} alt={project.name} className={styles.cardImage} />
+            <div className={styles.cardHeader}><h2 className={styles.title}>{project.name}</h2></div>
+            <div className={styles.cardBody}>
+                <p className={styles.description}>{project.description}</p>
+                <p><strong>Tecnologías:</strong> {project.technologies.join(', ')}</p>
             </div>
-    )
-}
+        </div>
+    );
+};
+
+export default ProjectsCards;
 
 
-export default ProjectsCards
+//Shift + Alt + F

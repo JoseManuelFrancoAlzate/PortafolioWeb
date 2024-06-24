@@ -6,3 +6,20 @@
     position: relative;
     top:100px
 }
+
+.containerCardsProjects{
+    position: relative;
+    top: 110px; left: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0.5rem;
+    margin: 1rem;
+    padding: 100px;
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+    margin-left: auto; /* Desplaza el contenedor hacia la derecha */
+    align-items: flex-start;  
+    border: 1px solid yellowgreen;
+    border-radius: 100px;
+    background-color: rgb(17, 16, 16);
+    
+}

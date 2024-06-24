@@ -1,16 +1,27 @@
 import styles from './Projects.module.css'
 import ProjectsCards from './ProjectsCards/ProjectsCards'
+import arrayProjects from './infoProjects'
+const Projects = () => {
 
-const Projects =()=>{
-    return(
+    return (
         <div>
             <div className={styles.containerProjects}>
-            <h1 className={styles.titleProject}>Projects</h1>
+                <h1 className={styles.titleProject}>Proyectos</h1>
             </div>
-            <ProjectsCards
-            name="Countries"
-            image="countries.png"/>
-            
+            <div className={styles.containerCardsProjects}>
+            {
+                arrayProjects.map((projects)=>{
+                    return(
+                    <ProjectsCards
+                    name={projects.name}
+                    imageUrl={projects.image}
+                    description={projects.description}
+                    technologies={projects.technologies}/>
+                    )
+                })
+           }
+</div>
+
         </div>
     )
 }

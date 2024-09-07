@@ -72,9 +72,17 @@ const Technologies = () => {
           image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/640px-Python.svg.png'
         },
         {
-          name: 'Angular',
-          image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png'
+          name: 'Java',
+          image: 'https://cdn-icons-png.flaticon.com/512/226/226777.png'
         },
+        {
+          name: "Prime faces",
+          image: "https://archive.org/download/github.com-primefaces-primeng_-_2021-09-01_10-34-24/cover.jpg"
+        },
+        {
+          name: "Vue",
+          image:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/640px-Vue.js_Logo_2.svg.png"
+        }
       ]
     },
     {

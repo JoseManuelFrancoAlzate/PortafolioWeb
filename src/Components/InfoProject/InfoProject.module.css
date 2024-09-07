@@ -1,0 +1,62 @@
+.title {
+    display: flex;
+    font-size: 55px;
+    color: white;
+    justify-content: center;
+    font-weight: 1000;
+        letter-spacing: 0.1em; /* Ajusta el valor según la cantidad de espacio deseado */
+
+}
+
+.containerButton {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #ec9f1ab4;
+    border: 5px solid orangered;
+    border-bottom-right-radius: 10px;
+    height: 8cap; /* Puedes ajustar esta altura según tus necesidades */
+    align-items: center;
+    width: 20%;
+    position: fixed;
+    left: 0;
+    position: fixed; /* Fijar el header en la parte superior */
+    top: 0;
+    right: 0;
+    z-index: 1000; /* Asegura que el header esté por encima de otros elementos */
+    box-sizing: border-box; /* Incluir padding y border en el ancho y la altura */
+    justify-content: center;
+}
+
+.containerDescription{
+    background-color:aquamarine;
+    width: 1100px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-block: 50px;
+    line-height: 1.6;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000;
+}
+.button {
+    height: 100px;
+    width: 100px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerElements{
+    padding-top: 50px;
+}
+.imageProject{
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 10px;
+}

@@ -1,6 +1,27 @@
 import React from 'react';
 import styles from "./Technologies.module.css";
 import CardTechnologies from "./CardTechnologies/CardTechnologies";
+//Imagenes de las tecnologias
+//Imagenes de las tecnologias
+import imageHtml from "../../Images/imgTecnologias/HTML.png"
+import imageCss from "../../Images/imgTecnologias/CSS.svg"
+import imageReact from "../../Images/imgTecnologias/REACT.png"
+import imageNext from "../../Images/imgTecnologias/NEXT.svg"
+import imageRedux from "../../Images/imgTecnologias/REDUX.svg"
+import imageTailwind from "../../Images/imgTecnologias/TAILWIND.png"
+import imageJavascript from "../../Images/imgTecnologias/JAVASCRIPT.webp"
+import imageNode from "../../Images/imgTecnologias/NODE.svg"
+import imageExpress from "../../Images/imgTecnologias/EXPRESS.webp"
+import imageSequelize from "../../Images/imgTecnologias/SEQUELIZE.png"
+import imageMongodb from "../../Images/imgTecnologias/MONGODB.png"
+import imagePostgresSql from "../../Images/imgTecnologias/POSTGRESQL.png"
+import imagePython from "../../Images/imgTecnologias/PYTHON.png"
+import imageCsharp from "../../Images/imgTecnologias/Csharp.png"
+import imageGit from "../../Images/imgTecnologias/GIT.png"
+import imageNpm from "../../Images/imgTecnologias/NPM.png"
+import imageGitHub from "../../Images/imgTecnologias/GITHUB.png"
+import imageTerminal from "../../Images/imgTecnologias/TERMINAL.png"
+import imageVS from "../../Images/imgTecnologias/VS.png"
 
 const Technologies = () => {
   const infoTechnologies = [
@@ -9,31 +30,31 @@ const Technologies = () => {
       technologies: [
         {
           name: 'HTML',
-          image: 'https://cdn-icons-png.flaticon.com/256/174/174854.png'
+          image: imageHtml
         },
         {
           name: 'CSS',
-          image: 'https://cdn.worldvectorlogo.com/logos/css-3.svg'
+          image: imageCss
         },
         {
           name: 'React',
-          image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png',
+          image: imageReact
         },
         {
          name: 'Next.js',
-         image: 'https://cdn.worldvectorlogo.com/logos/next-js.svg',
+         image: imageNext
         },
         {
           name: 'Redux',
-          image: 'https://www.bairesdev.com/wp-content/uploads/2020/07/redux.svg'
+          image: imageRedux
         },
         {
           name: 'Tailwind',
-          image: 'https://cdn.icon-icons.com/icons2/2699/PNG/512/tailwindcss_logo_icon_167923.png'
+          image: imageTailwind
         },
         {
           name: 'JavaScript',
-          image: 'https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png'
+          image: imageJavascript
         }
       ],
 
@@ -43,46 +64,38 @@ const Technologies = () => {
       technologies: [
         {
           name: 'Node.js',
-          image: 'https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg'
+          image: imageNode
         },
         {
           name:'Express.js',
-          image:'https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png'
+          image:imageExpress
         },
         {
           name:'Sequelize',
-          image:'https://seeklogo.com/images/S/sequelize-logo-9A5075DB9F-seeklogo.com.png'
+          image:imageSequelize
        },
        {
         name:'Mongodb',
-        image:'https://static-00.iconduck.com/assets.00/mongodb-original-icon-921x2048-hvrb89lu.png'
+        image: imageMongodb
        },
       {
         name:'postgreSQL',
-        image:'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/800px-Postgresql_elephant.svg.png'
+        image: imagePostgresSql
       }
 
       ]
-    },
+    }, 
     {
       name: 'Aprendiendo',
       technologies: [
         {
           name: 'Python',
-          image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/640px-Python.svg.png'
+          image: imagePython
         },
         {
-          name: 'Java',
-          image: 'https://cdn-icons-png.flaticon.com/512/226/226777.png'
+          name: "C#",
+          image: imageCsharp
         },
-        {
-          name: "Prime faces",
-          image: "https://archive.org/download/github.com-primefaces-primeng_-_2021-09-01_10-34-24/cover.jpg"
-        },
-        {
-          name: "Vue",
-          image:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/640px-Vue.js_Logo_2.svg.png"
-        }
       ]
     },
     {
@@ -90,23 +103,23 @@ const Technologies = () => {
       technologies: [
         {
           name:'Git',
-          image:'https://victorroblesweb.es/wp-content/uploads/2018/04/git.png'
+          image: imageGit
         },
         {
           name: 'NPM',
-          image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/2560px-Npm-logo.svg.png'
+          image: imageNpm
         },
         {
           name:'GitHub',
-          image:'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png'
+          image:imageGitHub
         },
         {
           name:'Terminal',
-          image:'https://static-00.iconduck.com/assets.00/terminal-icon-1024x897-viembxtc.png'
+          image: imageTerminal
         },
         {
           name:'vsCode',
-          image:'https://static-00.iconduck.com/assets.00/visual-studio-code-icon-2048x2026-9ua8vqiy.png'
+          image:imageVS
         }
  
       ]

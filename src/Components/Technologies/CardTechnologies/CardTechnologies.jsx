@@ -8,15 +8,12 @@ const CardTechnologies = ({ name, technologies = [] }) => {
   <div className={styles.containerTechs}>
     {technologies.map((tech, index) => (
       <div key={index} className={styles.techItem}>
-        <img alt={tech.name} className={styles.img} src={tech.image} />
+        <img src={tech.image} className={styles.img}/>
         <p className={styles.nameTechnologies}>{tech.name}</p>
       </div>
     ))}
   </div>
 </div>
-
-
-
   );
 };
 

@@ -32,3 +32,18 @@
     
   }
   
+  @media (max-width: 767px) {
+    .containerCardsTechnologies {
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-columns: 1fr; /* Cambia a una columna en pantallas pequeñas */
+        width: 90%; /* Ajusta el ancho para adaptarse mejor a la pantalla móvil */
+        padding: 0.5rem; /* Reduce el padding en móviles */
+        margin: 1rem auto;
+        
+    }
+
+    .title {
+        font-size: 1.5rem; /* Reduce el tamaño de fuente del título en móviles */
+    }
+}

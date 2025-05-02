@@ -26,3 +26,16 @@
 .link{
     text-decoration: none;
 }
+
+@media(max-width: 767px){
+    .containerCardsProjects {
+        grid-template-columns: 1fr; /* Una columna en pantallas móviles */
+        padding: 1rem; /* Reduce el padding en móviles */
+        margin: 1rem auto; /* Centra el contenedor en móviles */
+    }
+    .titleProject{
+        font-size: 1.5rem; /* Reduce el tamaño de fuente del título en móviles */
+    }
+
+  
+}

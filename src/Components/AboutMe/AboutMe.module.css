@@ -18,7 +18,6 @@
     max-width: 500px;
     font-size: 1rem;
     line-height: 1.6;
- 
 }
 
 /* DownloadButton.module.css */
@@ -46,4 +45,10 @@
 .button:active {
     background-color: #1f618d; /* Azul más oscuro al hacer click */
     border-color: #1f618d; /* Mismo azul para el borde al hacer click */
+}
+
+@media(max-width: 767px){
+.title{
+    font-size: 1.5rem;
+}
 }

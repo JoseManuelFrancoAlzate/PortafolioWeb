@@ -1,10 +1,9 @@
 .title {
     display: flex;
-    font-size: 55px;
-    color: white;
+    font-size: 100px;
+    color: orangered;
     justify-content: center;
-    font-weight: 1000;
-        letter-spacing: 0.1em; /* Ajusta el valor según la cantidad de espacio deseado */
+    letter-spacing: 0.1em; /* Ajusta el valor según la cantidad de espacio deseado */
 
 }
 
@@ -28,18 +27,23 @@
 }
 
 .containerDescription{
-    background-color:aquamarine;
+    background-color:rgb(0, 0, 0);;
     width: 1100px;
     height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    border: 10px solid rgb(255, 158, 1);
+    -webkit-text-stroke: 1px rgb(6, 251, 255); /* Borde blanco de 2px */
     margin-block: 50px;
     line-height: 1.6;
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 1000;
+}
+.containerFunction{
+    width: 1100px;
 }
 .button {
     height: 100px;
@@ -52,11 +56,237 @@
 }
 
 .containerElements{
-    padding-top: 50px;
+    width: 1100px;
 }
 .imageProject{
-  width: 400px;
-  height: 200px;
+  width: 600px;
+  height: 300px;
   border: 1px solid black;
   border-radius: 10px;
+}
+
+.imgH1{
+    display: flex;
+}
+
+
+.content{
+    text-align: left;
+    font-size: 1.5rem; /* Puedes ajustar el tamaño según tus preferencias */
+    color: white;
+    width: 1100px;
+    height: 200px;
+}
+
+.titleFunction{
+    color: orange;
+    text-align: left;
+    font-size: 1.5rem; /* Puedes ajustar el tamaño según tus preferencias */
+}
+
+.titleFunctions{
+    color: orangered;
+    text-align: left;
+    font-size: 2.0rem; /* Puedes ajustar el tamaño según tus preferencias */
+}
+.functions{
+    text-align: left;
+    font-size: 1.2rem; /* Puedes ajustar el tamaño según tus preferencias */
+    list-style-type: none;
+    color: white;
+}
+.functions li::marker {
+  content: '🔸'; /* Reemplaza el punto de la lista por "🔸" */
+  font-size: 1.3em;
+  margin-right: 8px; /* Añade espacio entre el marcador y el texto */
+}
+.containerImages {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual ancho */
+    gap: 10px; /* Espacio entre las imágenes */
+  }
+
+
+  .images {
+    width: 100%; /* Ajusta el ancho de cada imagen dentro de su contenedor */
+    border-radius: 8px; /* Opcional: bordes redondeados */
+  }
+  .gif{
+    max-width: 1100px;
+    max-height: 501;
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 10px; /* Espacio entre las imágenes */
+
+  }
+
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .th, .td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .th {
+    background-color: #2cedff;
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
+  }
+
+  td{
+    color: #ddd;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  .contentTips {
+    display: flex;             /* Utiliza flexbox para el contenedor */
+    flex-direction: column;    /* Apila las imágenes de manera vertical */
+    align-items: flex-start;   /* Alinea las imágenes al inicio del contenedor */
+    justify-content: flex-end; /* Coloca las imágenes en la parte inferior del contenedor */
+    gap: 10px;                 /* Espacio entre las imágenes */
+}
+
+.contentTipsTwo {
+  display: flex;               /* Activa flexbox */
+  flex-direction: row;         /* Ordena los elementos horizontalmente */
+  align-items: center;         /* Centra verticalmente */
+  gap: 10px;                   /* Añade un espacio entre los elementos (ajusta según tus necesidades) */
+  color: white;                /* Aplica el color blanco al texto */
+}
+ .imgNaranja{
+  width: 40px;
+  height: 40px;
+  margin-left: 1rem;
+ }
+
+/* Media Queries para pantallas pequeñas */
+@media (max-width: 767px) {
+  .title {
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 0.05em;
+  }
+
+  .containerButton {
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .containerDescription,
+  .containerFunction,
+  .containerElements,
+  .content {
+    width: 90%;
+    height: auto;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .imageProject,
+  .gif {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  .containerImages {
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+
+  .table {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .th, .td {
+    padding: 5px;
+  }
+
+  .functions {
+    font-size: 1rem;
+  }
+
+  .contentTips {
+    width: 100%;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .contentTipsTwo {
+    display: flex;
+    flex-direction: row; /* Mantiene los elementos en fila horizontal */
+    align-items: center; /* Centra verticalmente */
+    justify-content: flex-start; /* Alinea horizontalmente */
+    gap: 10px; /* Espacio entre los elementos */
+    margin-bottom: 10px;
+  }
+
+  .imgH1 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .imgNaranja {
+    width: 30px;
+    height: 30px;
+    margin-left: 0;
+  }
+}
+
+/* Media Queries para pantallas medianas */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .title {
+    font-size: 50px;
+    margin-top: 40px;
+  }
+
+  .containerButton {
+    width: 70%;
+    height: 60px;
+  }
+
+  .containerDescription {
+    width: 100%;
+    height: auto;
+    font-size: 22px;
+  }
+
+  .containerFunction,
+  .containerElements,
+  .content {
+    width: 95%;
+    padding: 15px;
+  }
+
+  .imageProject,
+  .gif {
+    width: 80%;
+    height: auto;
+  }
+
+  .containerImages {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .functions {
+    font-size: 1.2rem;
+  }
+
+  .contentTipsTwo {
+    flex-direction: row; /* Mantiene la fila horizontal en tablets también */
+    align-items: center;
+    gap: 10px;
+  }
+
+  .imgH1 {
+    flex-direction: row;
+    align-items: center;
+  }
 }

@@ -82,3 +82,31 @@ font-family: 'Roboto', sans-serif;
   position: relative;
 
 }
+
+@media(max-width:767px){
+.containerI{
+  position: relative;
+  top: 400px;
+}
+.profession,
+.name{
+  left:395px;
+}
+
+.linkendin,
+.github,
+.whatsapp{
+  top: 310px; left: 395px;
+}
+.profilePicture{
+  top: -60px; left: 395px;
+}
+.container{
+  margin-bottom: 250px ;
+}
+
+.I{
+
+    font-size: 1.5rem;
+}
+}

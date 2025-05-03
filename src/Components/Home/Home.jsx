@@ -29,7 +29,7 @@ const Home = () => {
             <div className={styles.containerI}>
                 <h1 className={styles.vignettes}>———————————————</h1>
                 <h1 className={styles.I}>Sobre Mi</h1>
-                <p className={styles.myDescription}>Full stack developer con aproximadamente dos años de experiencia en el desarrollo de aplicaciones web. Actualmente, estudio de forma autodidacta y trabajo en proyectos individuales y grupales.</p>
+                <p className={styles.myDescription}>Desarrollador full stack con experiencia autodidacta en el desarrollo de aplicaciones web durante los últimos dos años. He trabajado en proyectos personales y colaborativos, enfocados en mejorar mis habilidades tanto en frontend como en backend.</p>
                 <h1 className={styles.vignettes}>———————————————</h1>
             </div>
             </center>

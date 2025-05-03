@@ -15,7 +15,7 @@ import imageCountriesGif from "../../Images/imgCountries/Countries-Web.gif"
 import imageInfoCountries from "../../Images/imgCountries/infoCountries.png"
 import imageLoginCountries from "../../Images/imgCountries/loginCountries.png"
 //Dogs
-import imageDogsGif from "../../Images/imgDogs/Dogs-Web.gif"
+//import imageDogsGif from "../../Images/imgDogs/Dogs-Web.gif"
 import imageInfoDogs from "../../Images/imgDogs/infoDogs.png"
 import imageLoginDogs from "../../Images/imgDogs/loginDogs.png"
 //Nfts
@@ -87,7 +87,7 @@ const arrayProjects = [{
     id:2,
     name:"Dogs",
     image: imageDogs,
-    gif: imageDogsGif,
+    gif: "/Dogs-Web.gif",
     images: [imageLoginDogs, imageInfoDogs],
     description: 'Dogs es un proyecto que te permite explorar distintos tipos de perros y acceder a informacion detallada sobre ellos. Puedes filtrarlos, ordenarlos y buscarlos, ademas de crear perros personalizados.',
     content: "Este es otro de mis proyectos desarrollados durante el bootcamp de HolaSoyHenry. Su objetivo es mostrar distintos tipos de perros mediante tarjetas informativas. Incluye un sistema de paginación, un buscador para encontrar perros rápidamente y opciones de filtrado por temperamento, tamaño, perros creados o existentes en la base de datos. Además, puedes organizar los perros alfabéticamente y crear nuevos perros personalizados según tus preferencias",

@@ -22,7 +22,7 @@ import imageLoginDogs from "../../Images/imgDogs/loginDogs.png"
 import imageInfoNfts from "../../Images/ImgNfts/NftsInfo.png"
 import imageLoginNfts from "../../Images/ImgNfts/NftsLogin.png"
 import imageRegisterNfts from "../../Images/ImgNfts/NftsRegister.png"
-import gifAboutNfts from "../../Images/ImgNfts/NftsAbout.gif"
+//import gifAboutNfts from "../../Images/ImgNfts/NftsAbout.gif"
 import ImageCarritoNfts from "../../Images/ImgNfts/NftsCarrito.png"
 import ImageInicioNfts from "../../Images/ImgNfts/NftsInicio.png";
 import ImageUpdateNfts from "../../Images/ImgNfts/NftsUpdate.png"

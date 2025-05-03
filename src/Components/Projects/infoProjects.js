@@ -22,7 +22,7 @@ import imageLoginDogs from "../../Images/imgDogs/loginDogs.png"
 import imageInfoNfts from "../../Images/ImgNfts/NftsInfo.png"
 import imageLoginNfts from "../../Images/ImgNfts/NftsLogin.png"
 import imageRegisterNfts from "../../Images/ImgNfts/NftsRegister.png"
-//import gifAboutNfts from "../../Images/ImgNfts/NftsAbout.gif"
+import gifAboutNfts from "../../Images/ImgNfts/NftsAbout.gif"
 import ImageCarritoNfts from "../../Images/ImgNfts/NftsCarrito.png"
 import ImageInicioNfts from "../../Images/ImgNfts/NftsInicio.png";
 import ImageUpdateNfts from "../../Images/ImgNfts/NftsUpdate.png"
@@ -103,7 +103,7 @@ const arrayProjects = [{
     name:"Nifitygo", 
     gif: ImageInicioNfts,
     image:imageNifytigo,
-    images: [imageInfoNfts, imageLoginNfts, imageRegisterNfts, gifAboutNfts,ImageCarritoNfts, ImageUpdateNfts, gifCreateNfts, imageNftsTarjet],
+    images: [imageInfoNfts, imageLoginNfts, imageRegisterNfts,  ImageCarritoNfts, ImageUpdateNfts, gifCreateNfts, imageNftsTarjet, gifAboutNfts],
     description: 'Niftygo es una plataforma web que simula la compra y venta de NFTs. Los usuarios pueden explorar distintos NFTs, ver sus precios y descripciones, y realizar transacciones de compra utilizando PayPal.',
     content: "Este fue mi proyecto final y grupal en el Bootcamp de HolaSoyHenry, en el que participamos un total de 8 integrantes. Al inicio de la jornada nos reuniamos para asi planear como construiriamos una página web en donde simulamos vender NFTs. Implementamos registros e inicios de sesión tanto de usuarios como de administradores en donde estos podían crear NFTs para así venderlos, o comprarlos por medio de paypal.",
     functionsTitle: ["Login: ", "Paginacion: ", "Registro: ",   "Barra de busqueda: ", "Filtros: ", "Creacion de nft's: ","Carrito de compras: ", "Compra de nft's: ",  "Actualizacion de datos personales: "],
